@@ -6,7 +6,7 @@ const NavLinks = () => {
   //  const toggle = () => setIsOpen(!isOpen);
 
    return (
-		<div className="flex flex-row gap-2">
+		<div className="flex flex-row flex-1 justify-evenly">
       <NavLink to="/" end>
         Home
       </NavLink>

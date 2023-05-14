@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Tailwind CSS theme colors can be accessed using theme("") */
+
 body {
-  background-color: burlywood;
+  background-color: theme("colors.platinum");
 }

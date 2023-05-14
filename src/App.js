@@ -16,9 +16,9 @@ function App() {
 	return (
 
 		<HashRouter>
-      <nav>
+      <header>
         <Header />
-      </nav>
+      </header>
       <Routes>
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/services' element={<ServicesPage />} />

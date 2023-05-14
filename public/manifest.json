@@ -11,11 +11,6 @@
       "src": "chattacode.png",
       "type": "image/png",
       "sizes": "16x16"
-    },
-    {
-      "src": "chattacode.png",
-      "type": "image/png",
-      "sizes": "16x16"
     }
   ],
   "start_url": ".",
