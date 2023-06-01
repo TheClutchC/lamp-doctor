@@ -2,16 +2,18 @@
 
 const Footer = () => {
   return (
-    <div className="flex flex-row">
-      <h1
-        style={{ 
-            color: "#fff",
-            backgroundImage: "radial-gradient( #fff, 7%, #000 )",
-            textAlign: "center"
-        }}
-      >
-        Footer (create components for each column of info like SiteMap, Contact Info, Business Hours, Copyright & Design)
-      </h1>
+    <div 
+      className="flex flex-row" 
+      style={{ 
+        color: "#fff",
+        backgroundImage: "radial-gradient( #fff, 7%, #000 )",
+        textAlign: "center"
+      }}
+    >
+      <div>SiteMap</div>
+      <div>Contact Info</div>
+      <div>Business Hours</div>s
+      <div>Copyright and Design</div>
     </div>
   );
 };
