@@ -12,7 +12,7 @@ const Footer = () => {
     >
       <div>SiteMap</div>
       <div>Contact Info</div>
-      <div>Business Hours</div>s
+      <div>Business Hours</div>
       <div>Copyright and Design</div>
     </div>
   );
