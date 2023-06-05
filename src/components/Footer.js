@@ -4,19 +4,21 @@ import SiteMap from "./forFooter/SiteMap";
 
 const Footer = () => {
   return (
-    <div 
-      className="flex flex-row" 
+    <footer
+      className="border-y-8 border-y-olive" 
       style={{ 
         color: "#fff",
         backgroundImage: "radial-gradient( #fff, 7%, #000 )",
         textAlign: "center"
       }}
     >
-      <SiteMap />
+      <div className="flex flex-row">
+        <SiteMap />
+        <BusinessHours />
+      </div>
       <div>Contact Info</div>
-      <BusinessHours />
       <div>Copyright and Design</div>
-    </div>
+    </footer>
   );
 };
 
