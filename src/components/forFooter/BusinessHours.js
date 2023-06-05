@@ -1,49 +1,40 @@
+
+const daysOfWeek = [
+  'Monday', 
+  'Tuesday', 
+  'Wednesday', 
+  'Thursday', 
+  'Friday', 
+  'Saturday', 
+  'Sunday'];
+
 const BusinessHours = () => {
   return (
-    <table className="table-auto border-4">
+    <table className="border-collapse border border-gray-800">
       <thead>
-        <tr>
-          <th className="border-2">Business Hours</th>
+        <tr className="bg-gray-800 text-white text-lg font-bold">
+          <th colSpan="2">Business Hours</th>
         </tr>
-      </thead>
-      <thead>
-        <tr>
-          <th>Day</th>
-          <th>Hours</th>
+        <tr className="bg-gray-400 text-gray-800">
+          <th className="w-1/2 text-center">Day</th>
+          <th className="w-1/2 text-center">Hours</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Monday</td>
-          <td>11 a.m.-7 p.m.</td>
-        </tr>
-        <tr>
-          <td>Tuesday</td>
-          <td>11 a.m.-7 p.m.</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
-          <td>11 a.m.-7 p.m.</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>11 a.m.-7 p.m.</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>11 a.m.-7 p.m.</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>10 a.m.-5 p.m.</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>12:30 p.m.-4 p.m.</td>
-        </tr>
+        {daysOfWeek.map((day) => (
+          <tr key={day} className="border border-gray-800">
+            <td className="py-2 px-4 text-center">{day}</td>
+            <td className="py-2 px-4 text-center">
+              {/* Conditional Chain Below using Ternary Operator to specify weekend hours  */}
+              {day === 'Sunday' ? '1 p.m.-6 p.m.' 
+              : day === 'Saturday' ? '10 a.m.-5 p.m.' 
+              : '11 a.m.-7 p.m.'}
+            </td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );
-};
+}
 
 export default BusinessHours;
