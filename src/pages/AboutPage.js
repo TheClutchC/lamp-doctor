@@ -1,4 +1,4 @@
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <section className="px-52 my-24">
       <h1 className="text-3xl font-bold mb-10 text-center">
@@ -56,4 +56,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default AboutPage;
