@@ -1,4 +1,5 @@
 import BusinessHours from "./forFooter/BusinessHours";
+import SiteMap from "./forFooter/SiteMap";
 // Will need to import react-icons to replace fa-icons
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
         textAlign: "center"
       }}
     >
-      <div>SiteMap</div>
+      <SiteMap />
       <div>Contact Info</div>
       <BusinessHours />
       <div>Copyright and Design</div>
