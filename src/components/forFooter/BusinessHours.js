@@ -4,7 +4,7 @@ const daysOfWeek = [
 
 const BusinessHours = () => {
   return (
-    <div className="border-y-8 border-y-olive">
+    <div>
       <div className="font-bold italic">Business Hours</div>
       {daysOfWeek.map((day) => (
         <div key={day} className="py-2 px-4">

@@ -11,7 +11,7 @@ const SiteMap = () => {
   const linkPaths = ['/', '/about', '/services', '/contact'];
 
   return (
-    <div className="border-y-8 border-y-olive">
+    <div>
       <div className="font-bold italic">Site Map</div>
       {mapLinks.map((page, index) => (
         <div key={page} className="py-1 px-4">
