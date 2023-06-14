@@ -1,4 +1,4 @@
-# lamp-doctor
+# Lamp Doctor of Santa Fe 
 Straightforward Lamp Repair Website
 
 
