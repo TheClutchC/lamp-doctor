@@ -6,4 +6,5 @@
 
 body {
   background-color: theme("colors.platinum");
+  min-height: 100%;
 }

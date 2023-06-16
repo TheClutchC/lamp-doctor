@@ -1,10 +1,10 @@
 const AboutPage = () => {
   return (
     <section className="flex flex-col">
-      <h1 className="text-3xl font-bold text-center mt-10">
-        Our Company
+      <h1 className="font-bold text-seal-brown text-3xl text-center mt-10">
+        About Us
       </h1>
-      <div className="border-4 border-seal-brown m-10 p-5 backdrop-brightness-90">
+      <div className=" text-xl self-center p-10 m-10 w-full sm:w-1/2 backdrop-brightness-90">
         <p>
           Established in 2022, Lamp Doctor is a trusted lamp repair company
           known for its exceptional craftsmanship and personalized customer
