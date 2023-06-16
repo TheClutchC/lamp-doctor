@@ -1,6 +1,7 @@
 const daysOfWeek = [
-  'Mon-Fri', 
-  'Sat-Sun'];
+  'Mon-Wed', 
+  'Thurs-Sun'
+];
 
 const BusinessHours = () => {
   return (
@@ -11,7 +12,7 @@ const BusinessHours = () => {
           <div className="text-center">{day}</div>
           <div className="text-center">
             {/* Conditional Chain Below using Ternary Operator to specify weekend hours  */}
-            {day === 'Sat-Sun' ? '12 p.m.-5 p.m.' : '10 a.m.-7 p.m.'}
+            {day === 'Thurs-Sun' ? 'Closed' : '10 a.m.-4 p.m.'}
           </div>
         </div>
       ))}
