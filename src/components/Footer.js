@@ -5,21 +5,18 @@ import ContactInfo from "./forFooter/ContactInfo";
 
 const Footer = () => {
   return (
-    <footer
-      className="border-y-8 border-y-olive" 
-      style={{ 
-        color: "#fff",
-        backgroundImage: "radial-gradient( #fff, 7%, #000 )",
-        textAlign: "center"
-      }}
-    >
-      <div className="flex flex-row">
-        <SiteMap />
-        <BusinessHours />
-        <ContactInfo />
-      </div>
-      <div>Copyright and Design</div>
-    </footer>
+    <div>
+      <footer
+        className="border-y-8 border-y-olive text-center backdrop-brightness-90"
+      >
+        <div className="grid sm:grid-cols-3 gap-4">
+          <SiteMap />
+          <BusinessHours />
+          <ContactInfo />
+        </div>
+        <div>Copyright and Design</div>
+      </footer>
+    </div>
   );
 };
 

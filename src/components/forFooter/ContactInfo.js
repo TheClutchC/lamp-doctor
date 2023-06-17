@@ -1,7 +1,7 @@
 const information = [
-  'Call or Text:', 
-  'Email Us:',
-  'Yelp'
+  'Call or Text : 505-718-5499', 
+  'Email Us : lampdoctorsf@gmail.com',
+  'For Quotes and Reviews : Yelp'
 ];
 
 const ContactInfo = () => {
