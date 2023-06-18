@@ -1,6 +1,3 @@
-# Lamp Doctor of Santa Fe 
-Straightforward Lamp Repair Website
+# Lamp Doctor of Santa Fe
 
-
-## Services 
-Offering lamp repair and recessed lighting installation to the Greater Santa Fe Area
+### React.js & Tailwind CSS
