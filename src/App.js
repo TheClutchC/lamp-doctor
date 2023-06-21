@@ -11,6 +11,7 @@ import ServicesPage from "./pages/ServicesPage"
 import ContactPage from "./pages/ContactPage"
 
 // Base route "/" must be be the last one listed when using HashRouter below
+// Must use HashRouter to deploy React Web App on GitHub Pages
 
 function App() {
 	return (
