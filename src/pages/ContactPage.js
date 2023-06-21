@@ -1,7 +1,7 @@
 const ContactPage = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
+    <div className="font-bold">
+      <h1 className="text-3xl underline">
         Contact Page
       </h1>
       <p>Call or Text Us: 505-718-5499</p>
