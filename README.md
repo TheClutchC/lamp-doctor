@@ -4,6 +4,8 @@
 
 ### React.js & Tailwind CSS
 
+##### Lamp Repair Website
+
 This website is dedicated to providing expert lamp repair services. We specialize in repairing and restoring all types of lamps, including vintage and custom lamps. Our skilled technicians have years of experience in the industry, ensuring that your beloved lamps are in capable hands.
 
 ## Table of Contents
