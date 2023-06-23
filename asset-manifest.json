@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lamp-doctor/static/css/main.cea3a87a.css",
+    "main.js": "/lamp-doctor/static/js/main.da7334b7.js",
+    "index.html": "/lamp-doctor/index.html",
+    "main.cea3a87a.css.map": "/lamp-doctor/static/css/main.cea3a87a.css.map",
+    "main.da7334b7.js.map": "/lamp-doctor/static/js/main.da7334b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cea3a87a.css",
+    "static/js/main.da7334b7.js"
+  ]
+}
