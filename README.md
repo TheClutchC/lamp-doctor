@@ -1,6 +1,6 @@
 # Lamp Doctor of Santa Fe
 
-[Live Site]((https://theclutchc.github.io/lamp-doctor/) "Lamp Doctor Website") on GitHub Pages
+[Live Site](https://theclutchc.github.io/lamp-doctor/ "Lamp Doctor Website") on GitHub Pages
 
 ### React.js & Tailwind CSS
 
