@@ -1,6 +1,6 @@
 const information = [
-  'Call or Text : 505-718-5499', 
-  'Email Us : lampdoctorsf@gmail.com',
+  'Call or Text: 505-718-5499', 
+  'Email: lampdoctorsf@gmail.com',
   'For Quotes and Reviews : Yelp'
 ];
 
