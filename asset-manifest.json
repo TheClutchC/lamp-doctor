@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lamp-doctor/static/css/main.cea3a87a.css",
-    "main.js": "/lamp-doctor/static/js/main.da7334b7.js",
+    "main.css": "/lamp-doctor/static/css/main.81e83225.css",
+    "main.js": "/lamp-doctor/static/js/main.c03ed25a.js",
     "index.html": "/lamp-doctor/index.html",
-    "main.cea3a87a.css.map": "/lamp-doctor/static/css/main.cea3a87a.css.map",
-    "main.da7334b7.js.map": "/lamp-doctor/static/js/main.da7334b7.js.map"
+    "main.81e83225.css.map": "/lamp-doctor/static/css/main.81e83225.css.map",
+    "main.c03ed25a.js.map": "/lamp-doctor/static/js/main.c03ed25a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cea3a87a.css",
-    "static/js/main.da7334b7.js"
+    "static/css/main.81e83225.css",
+    "static/js/main.c03ed25a.js"
   ]
 }
