@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage"
 import AboutPage from "./pages/AboutPage"
 import ServicesPage from "./pages/ServicesPage"
 import ContactPage from "./pages/ContactPage"
+import NoMatch from "./pages/NoMatch"
 
 // Base route "/" must be be the last one listed when using HashRouter below
 // Must use HashRouter to deploy React Web App on GitHub Pages
@@ -16,15 +17,16 @@ import ContactPage from "./pages/ContactPage"
 function App() {
 	return (
 
-		<BrowserRouter>
+		<BrowserRouter basename="/lamp-doctor">
       <header>
         <Header />
       </header>
       <Routes>
+        <Route exact path='/' element={<HomePage />} />
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/services' element={<ServicesPage />} />
         <Route exact path='/contact' element={<ContactPage />} />
-        <Route exact path='/' element={<HomePage />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
       <footer>
         <Footer />
