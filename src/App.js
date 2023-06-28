@@ -1,6 +1,6 @@
 import React from "react"
 import "./App.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -17,21 +17,21 @@ import NoMatch from "./pages/NoMatch"
 function App() {
 	return (
 
-		<BrowserRouter basename="/lamp-doctor">
+		<Router basename="/lamp-doctor">
       <header>
         <Header />
       </header>
       <Routes>
-        <Route exact path='/' element={<HomePage />} />
+        <Route path="*" element={<NoMatch />} />
         <Route exact path='/about' element={<AboutPage />} />
         <Route exact path='/services' element={<ServicesPage />} />
         <Route exact path='/contact' element={<ContactPage />} />
-        <Route path="*" element={<NoMatch />} />
+        <Route exact path='/' element={<HomePage />} />
       </Routes>
       <footer>
         <Footer />
       </footer>
-    </BrowserRouter>
+    </Router>
 	)
 }
 
