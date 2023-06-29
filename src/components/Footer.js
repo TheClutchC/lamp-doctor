@@ -5,16 +5,14 @@ import ContactInfo from "./forFooter/ContactInfo";
 
 const Footer = () => {
   return (
-    <div className="relative">
-      <footer id="footer" className="text-center p-2 bg-platinum">
-        <div className="grid sm:grid-cols-3 gap-4">
-          <SiteMap />
-          <BusinessHours />
-          <ContactInfo />
-        </div>
-        <div>Copyright and Design</div>
-      </footer>
-    </div>
+    <footer id="footer" className="text-center p-2 bg-platinum">
+      <div className="grid sm:grid-cols-3 gap-4">
+        <SiteMap />
+        <BusinessHours />
+        <ContactInfo />
+      </div>
+      <div>Copyright and Design</div>
+    </footer>
   );
 };
 
