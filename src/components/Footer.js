@@ -5,10 +5,8 @@ import ContactInfo from "./forFooter/ContactInfo";
 
 const Footer = () => {
   return (
-    <div>
-      <footer
-        className="border-y-8 border-y-olive text-center backdrop-brightness-90"
-      >
+    <div className="relative">
+      <footer id="footer" className="text-center p-2 bg-platinum">
         <div className="grid sm:grid-cols-3 gap-4">
           <SiteMap />
           <BusinessHours />

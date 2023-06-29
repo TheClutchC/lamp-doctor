@@ -5,7 +5,7 @@ import CompanyName from "./forHeader/CompanyName";
 
 const Header = () => {
   return (
-    <div className="flex justify-stretch gap-2 m-2 items-center backdrop-brightness-90">
+    <div className="flex justify-stretch gap-2 rounded m-2 items-center bg-yellowesque">
       <Logo />
       <CompanyName />
       <NavLinks />
