@@ -5,14 +5,16 @@
 /* Tailwind CSS theme colors can be accessed using theme("") */
 
 /* With React, to fix the issue of having a floating footer, you need to handle the styling for #root as well */
-html, body, #root {
+html,
+body,
+#root {
   min-height: 100vh;
 }
 
 #root {
   display: flex;
   flex-direction: column;
- }
+}
 
 body {
   background-color: theme("colors.skybluesque");
@@ -20,59 +22,4 @@ body {
 
 footer {
   margin-top: auto;
-}
-
-/* Base */
-.lamp {
-  position: relative;
-  left: 45%;
-  width: 200px;
-  height: 320px;
-  background-color: #888;
-  border-radius: 50% 50% 0 0;
-}
-
-/* Pull string */
-.pull-string {
-  position: absolute;
-  top: 10px;
-  left: 80px;
-  width: 40px;
-  height: 80px;
-  background-color: #222;
-  border-radius: 50%;
-}
-
-/* Lamp shade */
-.lamp-shade {
-  position: absolute;
-  top: 40px;
-  left: 20px;
-  width: 160px;
-  height: 160px;
-  background-image: radial-gradient(theme("colors.platinum"), theme("colors.yellowesque"));
-  border-radius: 50%;
-  border-width: 2px;
-  animation: spin 4s infinite alternate-reverse;
-}
-
- /* Letters */
- .letters {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-20%, -20%);
-  font-size: 60px;
-  font-weight: bold;
-  animation: spin 4s infinite linear both;
-}
-
-/* Animation */
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
