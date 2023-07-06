@@ -1,28 +1,40 @@
 // import React, { useEffect } from 'react';
 
 const YelpReview = () => {
-//   useEffect(() => {
-//     const script = document.createElement('script');
-//     script.src = 'https://www.yelp.com/embed/widgets.js';
-//     script.type = 'text/javascript';
-//     script.async = true;
-//     document.body.appendChild(script);
+  //   useEffect(() => {
+  //     const script = document.createElement('script');
+  //     script.src = 'https://www.yelp.com/embed/widgets.js';
+  //     script.type = 'text/javascript';
+  //     script.async = true;
+  //     document.body.appendChild(script);
 
-//     return () => {
-//       document.body.removeChild(script);
-//     };
-//   }, []);
+  //     return () => {
+  //       document.body.removeChild(script);
+  //     };
+  //   }, []);
 
-//   return (
-//     <div>
-//       <span className="yelp-review" data-review-id="XqCPhVuN89SJfcizXnL5FA" data-hostname="www.yelp.com" />
-//       <br />
-//       <span className="yelp-review" data-review-id="XqCPhVuN89SJfcizXnL5FA" data-hostname="www.yelp.com" />
-//     </div>
-//   );
+  //   return (
+  //     <div>
+  //       <span className="yelp-review" data-review-id="XqCPhVuN89SJfcizXnL5FA" data-hostname="www.yelp.com" />
+  //       <br />
+  //       <span className="yelp-review" data-review-id="XqCPhVuN89SJfcizXnL5FA" data-hostname="www.yelp.com" />
+  //     </div>
+  //   );
   return (
-    <div>Yelp Review Screenshot Here! Links back to The Lamp Doctor on Yelp when clicked</div>
+    <>
+      <div>
+        Yelp Review Screenshot Here! Links back to The Lamp Doctor on Yelp when
+        clicked
+      </div>
+      <div className="flex flex-row justify-center">
+        <img
+          className="homePagePhoto1 h-auto w-1/3"
+          src={require("../images/LD-1.jpg")}
+          alt={"Lamp"}
+        />
+      </div>
+    </>
   );
-}
+};
 
 export default YelpReview;
