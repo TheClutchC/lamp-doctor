@@ -23,3 +23,7 @@ body {
 footer {
   margin-top: auto;
 }
+
+a.active {
+  color: red;
+}
