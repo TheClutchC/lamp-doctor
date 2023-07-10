@@ -1,28 +1,9 @@
-// import React, { useEffect } from 'react';
+import { AiFillStar } from "react-icons/ai";
 
 const YelpReview = () => {
-  //   useEffect(() => {
-  //     const script = document.createElement('script');
-  //     script.src = 'https://www.yelp.com/embed/widgets.js';
-  //     script.type = 'text/javascript';
-  //     script.async = true;
-  //     document.body.appendChild(script);
-
-  //     return () => {
-  //       document.body.removeChild(script);
-  //     };
-  //   }, []);
-
-  //   return (
-  //     <div>
-  //       <span className="yelp-review" data-review-id="XqCPhVuN89SJfcizXnL5FA" data-hostname="www.yelp.com" />
-  //       <br />
-  //       <span className="yelp-review" data-review-id="XqCPhVuN89SJfcizXnL5FA" data-hostname="www.yelp.com" />
-  //     </div>
-  //   );
   return (
     <>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row justify-center pt-10">
         <img
           className="homePagePhoto1 h-auto w-1/3"
           src={require("../images/LD-1.jpg")}
@@ -36,7 +17,26 @@ const YelpReview = () => {
           into a lamp. Incredibly friendly and easy going and reasonable!!
           Highly Recommend!!
         </blockquote>
-        <div className="text-right font-semibold">- Jennifer W.</div>
+        <div className="flex flex-row justify-between mt-5">
+          <div className="flex flex-row bg-shadowesque items-center px-1">
+            <AiFillStar color="orange" />
+            <AiFillStar color="orange" />
+            <AiFillStar color="orange" />
+            <AiFillStar color="orange" />
+            <AiFillStar color="orange" />
+          </div>
+          <div>
+            <b>- Jennifer W. , </b>
+            <i>
+              <a
+                style={{ color: "blue" }}
+                href="https://www.yelp.com/biz/the-lamp-doctor-santa-fe?osq=Lamp+Repair#reviews"
+              >
+                Yelp
+              </a>
+            </i>
+          </div>
+        </div>
       </div>
     </>
   );
