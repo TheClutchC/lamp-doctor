@@ -22,16 +22,21 @@ const YelpReview = () => {
   //   );
   return (
     <>
-      <div>
-        Yelp Review Screenshot Here! Links back to The Lamp Doctor on Yelp when
-        clicked
-      </div>
       <div className="flex flex-row justify-center">
         <img
           className="homePagePhoto1 h-auto w-1/3"
           src={require("../images/LD-1.jpg")}
           alt={"Lamp"}
         />
+      </div>
+      <div className="bg-platinum p-4 m-10 rounded-3xl">
+        <blockquote>
+          Sebastian is an invaluable resource for us as Interior Designers!! He
+          can fix any light fixture, lamp, chandelier etc or convert any object
+          into a lamp. Incredibly friendly and easy going and reasonable!!
+          Highly Recommend!!
+        </blockquote>
+        <div className="text-right font-semibold">- Jennifer W.</div>
       </div>
     </>
   );
