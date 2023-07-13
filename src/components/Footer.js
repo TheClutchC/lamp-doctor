@@ -1,7 +1,7 @@
 import BusinessHours from "./forFooter/BusinessHours";
 import SiteMap from "./forFooter/SiteMap";
 import ContactInfo from "./forFooter/ContactInfo";
-// Will need to import react-icons to replace fa-icons
+import CopyrightSection from "./forFooter/CopyrightSection";
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
         <BusinessHours />
         <ContactInfo />
       </div>
-      <div>Copyright and Design</div>
+      <CopyrightSection />
     </footer>
   );
 };
