@@ -29,7 +29,7 @@ const YelpReview = () => {
             <b>- Jennifer W. , </b>
             <i>
               <a
-                style={{ color: "blue" }}
+                style={{ color: "blue", fontWeight: "bold" }}
                 href="https://www.yelp.com/biz/the-lamp-doctor-santa-fe?osq=Lamp+Repair#reviews"
               >
                 Yelp
