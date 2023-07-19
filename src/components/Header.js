@@ -5,12 +5,16 @@ import CompanyName from "./forHeader/CompanyName";
 
 const Header = () => {
   return (
-    <div className="flex justify-stretch gap-2 rounded m-2 items-center bg-yellowesque">
-      <Logo />
-      <CompanyName />
-      <NavLinks />
-      <PhoneNumber />
-    </div>
+    <>
+      <div className="flex flex-col m-3 items-center">
+        <CompanyName />
+      </div>
+      <div className="flex justify-stretch gap-2 rounded-xl border-4 m-2 items-center bg-yellowesque">
+        <Logo />
+        <NavLinks />
+        <PhoneNumber />
+      </div>
+    </>
   );
 };
 
