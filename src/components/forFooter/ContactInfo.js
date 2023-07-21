@@ -1,18 +1,9 @@
-const information = [
-  'Call or Text: 505-718-5499', 
-  'Email: lampdoctorsf@gmail.com',
-  'For Quotes and Reviews : Yelp'
-];
-
 const ContactInfo = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <div className="font-bold italic">Contact Info</div>
-      {information.map((piece) => (
-        <div key={piece} className="py-2 px-4">
-          <div className="text-center">{piece}</div>
-        </div>
-      ))}
+      <a href="mailto:lampdoctorsf@gmail.com">lampdoctorsf@gmail.com</a>
+      <a href="tel:5057185499" className="pb-4">505-718-5499</a>
     </div>
   );
 }

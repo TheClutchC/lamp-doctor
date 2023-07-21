@@ -10,15 +10,15 @@ const YelpReview = () => {
           alt={"Lamp"}
         />
       </div>
-      <div className="bg-platinum p-4 m-10 rounded-3xl">
+      <div className="bg-platinum px-5 py-5 m-10 rounded-3xl text-center">
         <blockquote>
           Sebastian is an invaluable resource for us as Interior Designers!! He
           can fix any light fixture, lamp, chandelier etc or convert any object
           into a lamp. Incredibly friendly and easy going and reasonable!!
           Highly Recommend!!
         </blockquote>
-        <div className="flex flex-row justify-between mt-5">
-          <div className="flex flex-row bg-shadowesque items-center px-1">
+        <div className="flex flex-row justify-center mt-5">
+          <div className="flex flex-row bg-shadowesque items-center px-1 mr-5">
             <AiFillStar color="orange" />
             <AiFillStar color="orange" />
             <AiFillStar color="orange" />
