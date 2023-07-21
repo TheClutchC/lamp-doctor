@@ -9,7 +9,7 @@ const Header = () => {
       <div className="flex flex-col m-3 items-center">
         <CompanyName />
       </div>
-      <div className="flex justify-stretch gap-2 rounded-xl border-4 m-2 items-center bg-yellowesque">
+      <div className="flex justify-stretch gap-2 rounded-xl border-4 m-3 items-center bg-yellowesque">
         <Logo />
         <NavLinks />
         <PhoneNumber />
