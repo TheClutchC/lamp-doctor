@@ -15,7 +15,7 @@ const SiteMap = () => {
     <div>
       <div className="text-center font-bold italic">Site Map</div>
       {mapLinks.map((page, index) => (
-        <div key={page.title} className="inline-flex py-2 px-4">
+        <div key={page.title} className="inline-flex py-4 px-4">
           <div>
             <NavLink className="sitemap" to={linkPaths[index]}>
               <page.icon className="text-center text-2xl m-auto"/> 
