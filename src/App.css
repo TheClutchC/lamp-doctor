@@ -18,6 +18,10 @@ body,
 
 body {
   background-color: theme("colors.skybluesque");
+  background-image: url("./images/jean-philippe-delberghe-VBPUI5VIvf4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 footer {
@@ -26,5 +30,5 @@ footer {
 }
 
 a.active {
-  color: red;
+  color: white;
 }

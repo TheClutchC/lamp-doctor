@@ -5,7 +5,7 @@ import CopyrightSection from "./forFooter/CopyrightSection";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="text-center p-2 bg-platinum">
+    <footer id="footer" className="text-center p-2 bg-platinum bg-opacity-50">
       <div className="grid sm:grid-cols-3 gap-4">
         <SiteMap />
         <BusinessHours />
