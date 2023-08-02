@@ -3,13 +3,13 @@
 const YelpReview = () => {
   return (
     <>
-      <div className="flex flex-row justify-start p-10">
+      {/* <div className="flex flex-row justify-start p-10">
         <img
           className="homePagePhoto1 h-auto w-1/6"
           src={require("../images/LD-1.jpg")}
           alt={"Lamp"}
         />
-      </div>
+      </div> */}
       {/* <div className="flex flex-col items-center">
         <div className="bg-platinum px-5 py-5 rounded-3xl text-center w-1/2">
           <blockquote>
