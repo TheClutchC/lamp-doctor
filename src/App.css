@@ -17,8 +17,8 @@ body,
 }
 
 body {
-  background-color: theme("colors.skybluesque");
-  background-image: url("./images/jean-philippe-delberghe-VBPUI5VIvf4-unsplash.jpg");
+  background-color: theme("colors.shadowesque");
+  background-image: url("./images/dim-hou-k_8KygszI9I-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -29,6 +29,10 @@ footer {
   font-size: large;
 }
 
+a {
+  font-weight: bolder;
+}
+
 a.active {
-  color: white;
+  color: theme("colors.navyesque");
 }
