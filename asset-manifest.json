@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lamp-doctor/static/css/main.845ffc91.css",
-    "main.js": "/lamp-doctor/static/js/main.674cef7f.js",
+    "main.css": "/lamp-doctor/static/css/main.b53ca9d1.css",
+    "main.js": "/lamp-doctor/static/js/main.8cd740f0.js",
     "static/media/dim-hou-k_8KygszI9I-unsplash.jpg": "/lamp-doctor/static/media/dim-hou-k_8KygszI9I-unsplash.df8236e1c1e7f98f8a03.jpg",
     "static/media/LD-7.jpg": "/lamp-doctor/static/media/LD-7.db00cfcb1b699e5f2534.jpg",
     "static/media/LD-5.jpg": "/lamp-doctor/static/media/LD-5.f53e3be16065b16add55.jpg",
@@ -9,13 +9,12 @@
     "static/media/LD-2.jpg": "/lamp-doctor/static/media/LD-2.460a2c9f93ede504ca71.jpg",
     "static/media/LD-6.jpg": "/lamp-doctor/static/media/LD-6.c71dd4c65eaaeaeab774.jpg",
     "static/media/LD-1.jpg": "/lamp-doctor/static/media/LD-1.25471eb6df37a5ca887e.jpg",
-    "static/media/Y-Review1.jpg": "/lamp-doctor/static/media/Y-Review1.6ba05e93ded4cc4403ff.jpg",
     "index.html": "/lamp-doctor/index.html",
-    "main.845ffc91.css.map": "/lamp-doctor/static/css/main.845ffc91.css.map",
-    "main.674cef7f.js.map": "/lamp-doctor/static/js/main.674cef7f.js.map"
+    "main.b53ca9d1.css.map": "/lamp-doctor/static/css/main.b53ca9d1.css.map",
+    "main.8cd740f0.js.map": "/lamp-doctor/static/js/main.8cd740f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.845ffc91.css",
-    "static/js/main.674cef7f.js"
+    "static/css/main.b53ca9d1.css",
+    "static/js/main.8cd740f0.js"
   ]
 }
