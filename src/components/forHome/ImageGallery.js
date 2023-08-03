@@ -7,7 +7,7 @@ const ImageGallery = () => {
     // Next/previous controls
     const plusSlides = (n) => {
       let newIndex = slideIndex + n;
-      // Wrap the index around if it exceeds the number of slides
+      // Wraps the index around if it exceeds the number of slides
       if (newIndex > 6) {
         newIndex = 1;
       } else if (newIndex < 1) {
@@ -28,30 +28,29 @@ const ImageGallery = () => {
         {/* Full-width images with number text */}
         <div className={slideIndex === 1 ? "mySlides" : "mySlides hidden"}>
           <div className="numbertext">1 / 6</div>
-          <img src={require("../../images/LD-1.jpg")} style={{ width: "100%" }} alt="First" />
+          <img src={require("../../images/LD-1.jpg")} alt="First" />
         </div>
         <div className={slideIndex === 2 ? "mySlides" : "mySlides hidden"}>
           <div className="numbertext">2 / 6</div>
-          <img src={require("../../images/LD-2.jpg")} style={{ width: "100%" }} alt="Second" />
+          <img src={require("../../images/LD-2.jpg")} alt="Second" />
         </div>
         <div className={slideIndex === 3 ? "mySlides" : "mySlides hidden"}>
           <div className="numbertext">3 / 6</div>
-          <img src={require("../../images/LD-4.jpg")} style={{ width: "100%" }} alt="Third" />
+          <img src={require("../../images/LD-4.jpg")} alt="Third" />
         </div>
         <div className={slideIndex === 4 ? "mySlides" : "mySlides hidden"}>
           <div className="numbertext">4 / 6</div>
-          <img src={require("../../images/LD-5.jpg")} style={{ width: "100%" }} alt="Fourth" />
+          <img src={require("../../images/LD-5.jpg")} alt="Fourth" />
         </div>
         <div className={slideIndex === 5 ? "mySlides" : "mySlides hidden"}>
           <div className="numbertext">5 / 6</div>
-          <img src={require("../../images/LD-6.jpg")} style={{ width: "100%" }} alt="Fifth" />
+          <img src={require("../../images/LD-6.jpg")} alt="Fifth" />
         </div>
         <div className={slideIndex === 6 ? "mySlides" : "mySlides hidden"}>
           <div className="numbertext">6 / 6</div>
-          <img src={require("../../images/LD-7.jpg")} style={{ width: "100%" }} alt="Sixth" />
+          <img src={require("../../images/LD-7.jpg")} alt="Sixth" />
         </div>
         {/* Add other slides similarly */}
-        {/* ... */}
 
         {/* Next and previous buttons */}
         <button className="prev" onClick={() => plusSlides(-1)}>
@@ -72,7 +71,6 @@ const ImageGallery = () => {
             <img
               className={slideIndex === 1 ? "demo cursor active" : "demo cursor"}
               src={require("../../images/LD-1.jpg")}
-              style={{ width: "100%" }}
               onClick={() => currentSlide(1)}
               alt="First"
             />
@@ -81,7 +79,6 @@ const ImageGallery = () => {
             <img
               className={slideIndex === 2 ? "demo cursor active" : "demo cursor"}
               src={require("../../images/LD-2.jpg")}
-              style={{ width: "100%" }}
               onClick={() => currentSlide(2)}
               alt="Second"
             />
@@ -90,7 +87,6 @@ const ImageGallery = () => {
             <img
               className={slideIndex === 3 ? "demo cursor active" : "demo cursor"}
               src={require("../../images/LD-4.jpg")}
-              style={{ width: "100%" }}
               onClick={() => currentSlide(3)}
               alt="Third"
             />
@@ -99,7 +95,6 @@ const ImageGallery = () => {
             <img
               className={slideIndex === 4 ? "demo cursor active" : "demo cursor"}
               src={require("../../images/LD-5.jpg")}
-              style={{ width: "100%" }}
               onClick={() => currentSlide(4)}
               alt="Fourth"
             />
@@ -108,7 +103,6 @@ const ImageGallery = () => {
             <img
               className={slideIndex === 5 ? "demo cursor active" : "demo cursor"}
               src={require("../../images/LD-6.jpg")}
-              style={{ width: "100%" }}
               onClick={() => currentSlide(5)}
               alt="Fifth"
             />
@@ -117,7 +111,6 @@ const ImageGallery = () => {
             <img
               className={slideIndex === 6 ? "demo cursor active" : "demo cursor"}
               src={require("../../images/LD-7.jpg")}
-              style={{ width: "100%" }}
               onClick={() => currentSlide(6)}
               alt="Sixth"
             />

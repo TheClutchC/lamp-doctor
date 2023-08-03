@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 /* Used to center the image gallery on the home page */
 .page-container {
   display: flex;
   justify-content: center;
-  padding: 40px 30%;
+}
+
+@media (min-width: 768px) {
+  .page-container {
+    padding: 40px 30%;
+  }
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -48,7 +57,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: theme("colors.skybluesque");
 }
 
 /* Number text (1/6 etc) */
