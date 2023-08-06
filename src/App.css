@@ -33,6 +33,10 @@ a {
   font-weight: bolder;
 }
 
+a:hover {
+  color: theme("colors.skybluesque");
+}
+
 a.active {
   color: theme("colors.navyesque");
 }

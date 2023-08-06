@@ -1,11 +1,11 @@
 import ImageGallery from "../components/forHome/ImageGallery";
-import YelpReview from "../components/YelpReview";
+import Testimonial from "../components/Testimonial";
 
 const HomePage = () => {
   return (
     <div>
       <ImageGallery />
-      <YelpReview />
+      <Testimonial />
     </div>
   );
 };
