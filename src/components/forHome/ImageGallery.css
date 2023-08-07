@@ -10,15 +10,7 @@ img {
 
 /* Used to center the image gallery on the home page */
 .page-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 80px;
-}
-
-@media (min-width: 768px) {
-  .page-container {
-    padding: 80px 30%;
-  }
+  @apply flex justify-center pt-20 md:px-[30%];
 }
 
 /* Position the image container (needed to position the left and right arrows) */

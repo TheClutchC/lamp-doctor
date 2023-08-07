@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind CSS theme colors can be accessed using theme("") */
+/* Tailwind CSS styling can be aplied using theme("") or @apply rule */
+/* CSS can be applied in @apply rule using using brackets, example: px-[CSS value] */
 
 /* With React, to fix the issue of having a floating footer, you need to handle the styling for #root as well */
 html,
