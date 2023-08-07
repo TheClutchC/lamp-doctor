@@ -5,7 +5,7 @@ const Testimonial = () => {
   return (
     <>
       <div className="testimonials-container flex flex-col items-center">
-        <div className="bg-platinum bg-opacity-50 rounded-3xl text-center mx-5 my-20">
+        <div className="bg-platinum bg-opacity-50 rounded-3xl text-center sm:w-4/5 my-20">
           <div className="flex flex-row justify-center p-5 bg-shadowesque rounded-t-3xl mb-5">
             <div className="text-xl font-bold italic text-platinum">Customer Testimonials</div>
           </div>
