@@ -62,7 +62,7 @@ const ImageGallery = () => {
 
         {/* Image text */}
         <div className="caption-container">
-          <p id="caption"></p>
+          <p id="caption">Past Lamp Doctor Patients</p>
         </div>
 
         {/* Thumbnail images */}
