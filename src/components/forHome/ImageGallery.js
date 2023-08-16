@@ -24,6 +24,9 @@ const ImageGallery = () => {
   return (
     <div className="page-container">
       {/* Container for the image gallery */}
+      <div className="bg-shadowesque text-platinum text-center text-xl font-bold italic p-5 rounded-t-xl">
+        Some of Our Former Patients
+      </div>
       <div className="container">
         {/* Full-width images with number text */}
         <div className={slideIndex === 1 ? "mySlides" : "mySlides hidden"}>
@@ -62,7 +65,7 @@ const ImageGallery = () => {
 
         {/* Image text */}
         <div className="caption-container">
-          <p id="caption">Past Lamp Doctor Patients</p>
+          <p id="caption">© Lamp Doctor of Santa Fe</p>
         </div>
 
         {/* Thumbnail images */}
