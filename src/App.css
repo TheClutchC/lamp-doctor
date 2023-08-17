@@ -31,13 +31,33 @@ footer {
 }
 
 a {
+  position: relative;
   font-weight: bolder;
+  color: theme("colors.shadowesque");
+  transition: color 0.4s linear, background-color 0.4s linear;
+}
+
+a::before {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: theme("colors.shadowesque");
+  transition: left 0.2s ease;
 }
 
 a:hover {
-  color: theme("colors.skybluesque");
+  color: theme("colors.platinum");
+  background-color: theme("colors.shadowesque");
+  padding: 0 12px 0 12px;
+  @apply text-center;
+}
+
+a:hover::before {
+  left: 0;
 }
 
 a.active {
-  color: theme("colors.navyesque");
+  color: theme("colors.platinum");
 }
