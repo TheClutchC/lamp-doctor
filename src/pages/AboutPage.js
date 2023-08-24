@@ -1,13 +1,13 @@
 const AboutPage = () => {
   return (
     <section className="flex flex-col my-20">
-      <div className="text-xl self-center w-full md:w-3/5 sm:m-10 bg-platinum bg-opacity-50 rounded-3xl">
+      <div className="text-xl self-center w-full md:w-3/5 sm:m-10 bg-platinum rounded-3xl">
         <div className="flex flex-row justify-center p-5 bg-shadowesque rounded-t-3xl mb-5">
           <div className="text-xl font-bold italic text-platinum">About</div>
         </div>
         <div className="m-10">
           <p>
-            Established in 2022, Lamp Doctor is a trusted lamp repair company
+            Established in 2022, <em>The Lamp Doctor</em> is a trusted lamp repair company
             known for its exceptional craftsmanship and personalized customer
             service. We specialize in breathing new life into all kinds of lamps,
             from novelty and antique to standard fixtures.
@@ -22,7 +22,7 @@ const AboutPage = () => {
           </p>
           <br />
           <p>
-            At Lamp Doctor, we believe in the value of excellent communication. We
+          <em>The Lamp Doctor</em> believes in the value of excellent communication. We
             strive to keep our customers informed every step of the way, from
             initial assessment to completion. Our prompt communication ensures
             that you are always aware of the progress and expected timelines for
@@ -50,7 +50,7 @@ const AboutPage = () => {
           </p>
           <br />
           <p>
-            Choose Lamp Doctor for all your lamp repair needs. With our expertise
+            For all your lamp repair needs, choose <em>The Lamp Doctor</em>. With our expertise
             and dedication, we'll restore your lamps to their original beauty and
             functionality, bringing light back into your life.
           </p>
