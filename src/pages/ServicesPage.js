@@ -13,13 +13,10 @@ const ServicesPage = () => {
             from novelty and antique to standard fixtures.
           </p>
           <br />
-          <p>
-            What sets us apart is our commitment to providing quick turnaround
-            times without compromising on quality. We understand the importance of
-            your cherished lamps, and our skilled team works diligently to restore
-            them to their former glory. Our high standards of workmanship ensure
-            that every repair is executed with precision and attention to detail.
-          </p>
+          <ul>
+            <li>Electrical Inspection</li>
+            <li>Electrical Inspection</li>
+          </ul>
           <br />
           <p>
             At Lamp Doctor, we believe in the value of excellent communication. We
