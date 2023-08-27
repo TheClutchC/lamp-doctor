@@ -25,7 +25,7 @@ const ImageGallery = () => {
     <div className="page-container">
       {/* Container for the image gallery */}
       <div className="bg-shadowesque text-platinum text-center text-xl font-bold italic p-5 rounded-t-xl">
-        Some of Our Former Patients
+        Some of Our Previous Patients
       </div>
       <div className="container">
         {/* Full-width images with number text */}
