@@ -18,8 +18,8 @@ body,
 }
 
 body {
-  background-color: theme("colors.shadowesque");
-  background-image: url("./images/brian-suh-a4GET0s82rI-unsplash.jpg");
+  background-color: theme("colors.platinum");
+  background-image: radial-gradient(theme("colors.platinum"), theme("colors.shadowesque"));
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

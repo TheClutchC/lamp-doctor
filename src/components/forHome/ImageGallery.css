@@ -26,7 +26,7 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
-  background-color: theme("colors.navyesque");
+  background-color: theme("colors.skybluesque");
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -50,7 +50,7 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: theme("colors.skybluesque");
+  background-color: theme("colors.greenesque");
 }
 
 /* Number text (1/6 etc) */
@@ -65,9 +65,13 @@ img {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: theme("colors.greenesque");
   padding: 2px 16px;
   color: white;
+}
+
+#caption {
+  color: black;
 }
 
 .row:after {
@@ -83,9 +87,9 @@ img {
 }
 
 /* Add a transparency effect for thumnbail images */
-/* .demo {
+.demo {
   opacity: 0.6;
-} */
+}
 
 .active,
 .demo:hover {

@@ -5,9 +5,9 @@ const NoMatch = () => {
   return (
     <div>
       <div className="flex flex-col items-center py-10">
-        <h1 className="font-extrabold">404: Page Not Found</h1>
-        <p>This page doesn't exist yet.</p>
-        <Link to="/" className="bg-platinum rounded p-2 mt-2">
+        <h1 className="font-extrabold text-2xl">404: Page Not Found</h1>
+        <p className="text-2xl">This page doesn't exist yet.</p>
+        <Link to="/" className="bg-platinum rounded text-lg p-2 m-4">
           Return to home page
         </Link>
       </div>
