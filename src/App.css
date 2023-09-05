@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-  color: theme("colors.skybluesque");
+  color: theme("colors.primary");
 }
 
 a.active {

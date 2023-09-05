@@ -3,7 +3,7 @@ import Testimonial from "../components/Testimonial";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="m-3">
       <ImageGallery />
       <Testimonial />
     </div>
