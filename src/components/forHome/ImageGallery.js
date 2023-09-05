@@ -22,9 +22,9 @@ const ImageGallery = () => {
   }
 
   return (
-    <div className="page-container">
+    <div className="page-container border-8 border-platinum sm:mx-[15%] lg:mx-[33%] mt-12 rounded-3xl">
       {/* Container for the image gallery */}
-      <div className="bg-primary text-platinum text-center text-xl font-bold py-2 rounded-t-xl">
+      <div className="bg-primary text-platinum text-center text-xl font-bold p-2 rounded-t-2xl">
         Some of Our Previous Patients
       </div>
       <div className="container">
@@ -73,6 +73,7 @@ const ImageGallery = () => {
           <div className="column">
             <img
               className={slideIndex === 1 ? "demo cursor active" : "demo cursor"}
+              style={{ borderBottomLeftRadius: "18px" }}
               src={require("../../images/LD-1.jpg")}
               onClick={() => currentSlide(1)}
               alt="First"
@@ -113,6 +114,7 @@ const ImageGallery = () => {
           <div className="column">
             <img
               className={slideIndex === 6 ? "demo cursor active" : "demo cursor"}
+              style={{ borderBottomRightRadius: "18px" }}
               src={require("../../images/LD-7.jpg")}
               onClick={() => currentSlide(6)}
               alt="Sixth"

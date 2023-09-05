@@ -11,12 +11,13 @@ img {
 
 /* Used to center the image gallery on the home page */
 .page-container {
-  @apply flex flex-col justify-center pt-32 md:px-[30%];
+  @apply flex flex-col justify-center bg-platinum;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -56,7 +57,8 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: theme("colors.lavendaresque");
+  background-color: theme("colors.secondary");
+  color: theme("colors.primary");
 }
 
 /* Number text (1/6 etc) */
@@ -73,14 +75,14 @@ img {
 
 /* Container for image text */
 .caption-container {
-  text-align: center;
-  background-color: theme("colors.greenesque");
+  text-align: center;;
   padding: 2px 16px;
   color: white;
 }
 
 #caption {
-  color: black;
+  color: theme("colors.shadowesque");
+  font-weight: bold;
 }
 
 .row:after {

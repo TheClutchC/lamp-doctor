@@ -35,7 +35,7 @@ const Testimonial = () => {
               <AiFillStar color="orange" />
             </div>
             <div className="review-date text-platinum font-bold pb-2">4/7/2023</div>
-            <div><a className="text-navyesque hover:text-primary" href="https://www.yelp.com/biz/the-lamp-doctor-santa-fe?osq=Lamp+Repair#reviews">Read Full Review on Yelp {'>>'}</a></div>
+            <div><a href="https://www.yelp.com/biz/the-lamp-doctor-santa-fe?osq=Lamp+Repair#reviews">Read Full Review on Yelp {'>>'}</a></div>
           </div>
         </div>
       </div>
