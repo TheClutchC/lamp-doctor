@@ -39,5 +39,5 @@ a:hover {
 }
 
 a.active {
-  color: theme("colors.navyesque");
+  color: theme("colors.primary");
 }
