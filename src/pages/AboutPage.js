@@ -2,8 +2,8 @@ const AboutPage = () => {
   return (
     <section className="flex flex-col my-20">
       <div className="text-xl self-center w-full md:w-3/5 sm:m-10 bg-platinum rounded-3xl bg-opacity-50">
-        <div className="flex flex-row justify-center p-5 bg-shadowesque rounded-t-3xl mb-5">
-          <div className="text-xl font-bold italic text-platinum">About</div>
+        <div className="flex flex-row justify-center py-2 bg-primary rounded-t-3xl mb-5">
+          <div className="text-2xl font-bold italic text-platinum">About</div>
         </div>
         <div className="m-10">
           <p>

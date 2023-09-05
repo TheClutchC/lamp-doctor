@@ -25,7 +25,7 @@
   height: 160px;
   background-image: radial-gradient(
     theme("colors.platinum"),
-    theme("colors.yellowesque")
+    theme("colors.secondary")
   );
   border-radius: 50%;
   border-width: 2px;

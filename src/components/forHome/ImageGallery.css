@@ -6,6 +6,7 @@
 
 img {
   width: 100%;
+  border: 5px solid theme("colors.shadowesque");
 }
 
 /* Used to center the image gallery on the home page */
@@ -26,7 +27,7 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
-  background-color: theme("colors.skybluesque");
+  background-color: theme("colors.primary");
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -41,16 +42,21 @@ img {
   -webkit-user-select: none;
 }
 
+.prev {
+  border-left: 5px solid theme("colors.shadowesque");
+}
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  border-right: 5px solid theme("colors.shadowesque");
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: theme("colors.greenesque");
+  background-color: theme("colors.lavendaresque");
 }
 
 /* Number text (1/6 etc) */
@@ -60,6 +66,9 @@ img {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  background: theme("colors.shadowesque");
+  border-left: 5px solid theme("colors.shadowesque");
+  border-top: 5px solid theme("colors.shadowesque");
 }
 
 /* Container for image text */

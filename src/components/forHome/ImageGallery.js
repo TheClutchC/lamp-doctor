@@ -24,7 +24,7 @@ const ImageGallery = () => {
   return (
     <div className="page-container">
       {/* Container for the image gallery */}
-      <div className="bg-skybluesque text-platinum text-center text-xl font-bold italic p-5 rounded-t-xl">
+      <div className="bg-primary text-platinum text-center text-xl font-bold py-2 rounded-t-xl">
         Some of Our Previous Patients
       </div>
       <div className="container">
@@ -65,7 +65,7 @@ const ImageGallery = () => {
 
         {/* Image text */}
         <div className="caption-container">
-          <p id="caption">© Lamp Doctor of Santa Fe</p>
+          <p id="caption">© The Lamp Doctor of Santa Fe</p>
         </div>
 
         {/* Thumbnail images */}
