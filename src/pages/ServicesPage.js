@@ -47,9 +47,7 @@ const ServicesPage = () => {
           </p>
           <br />
           <p>
-            Choose Lamp Doctor for all your lamp repair needs. With our expertise
-            and dedication, we'll restore your lamps to their original beauty and
-            functionality, bringing light back into your life.
+            To request a service quote, you can do so through the company <a href="https://www.yelp.com/biz/the-lamp-doctor-santa-fe">Yelp</a> page or through our service portal <a href="https://servreq.onrender.com/">here</a>.
           </p>
         </div>
       </div>
