@@ -28,14 +28,14 @@ img {
 /* Next & previous buttons */
 .prev,
 .next {
-  background-color: theme("colors.primary");
+  background-color: theme("colors.platinum");
   cursor: pointer;
   position: absolute;
   top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: theme("colors.burgundyesque");
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;

@@ -35,9 +35,10 @@ a {
 }
 
 a:hover {
-  color: theme("colors.primary");
+  color: theme("colors.skybluesque");
+  text-shadow: 0.5px 0.5px theme("colors.secondary");
 }
 
 a.active {
-  color: theme("colors.primary");
+  color: theme("colors.burgundyesque");
 }
