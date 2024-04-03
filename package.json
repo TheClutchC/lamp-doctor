@@ -2,7 +2,7 @@
   "homepage": "http://TheClutchC.github.io/lamp-doctor",
   "name": "lamp-doctor",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
