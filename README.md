@@ -1,5 +1,11 @@
 # Lamp Doctor of Santa Fe
 
+### To Do
+-Add services list to services page
+-Work on issue with form page spinning down and taking forever to load
+-Add images to other pages to make them more lively or break up content more
+-Revamp contact page
+
 [Live Site](https://theclutchc.github.io/lamp-doctor/ "Lamp Doctor Website") on GitHub Pages
 
 ### React.js & Tailwind CSS
